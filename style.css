@@ -1,0 +1,123 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #ffcccc;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff6666;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.product {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.product img {
+	width: 100%;
+}
+
+.button {
+	display: inline-block;
+	background-color: #ff6666;
+color: #fff;
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.button:hover {
+background-color: #ff3333;
+}
+
+.contact form {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+}
+
+label, input, textarea {
+display: block;
+}
+
+label {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+input, textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+textarea {
+height: 100px;
+resize: none;
+}
+
+button[type="submit"] {
+background-color: #ff6666;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #ff3333;
+}
+
+footer {
+background-color: #ffcccc;
+padding: 10px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+}
